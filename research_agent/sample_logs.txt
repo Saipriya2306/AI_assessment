@@ -1,0 +1,47 @@
+Logfire project URL: https://logfire-us.pydantic.dev/saipriya/starter-project
+Research Agent Ready! (type 'exit' / 'quit' / 'bye' to stop)
+You: hello
+22:59:58.312 User input received
+22:59:58.314 research_agent run
+22:59:58.330   chat gemini-2.5-flash
+22:59:59.807 Agent output generated
+Agent: Hello! I'm a research assistant. What topic would you like to research today?
+
+You: wt is AI?
+23:00:46.285 User input received
+23:00:46.287 research_agent run
+23:00:46.289   chat gemini-2.5-flash
+23:00:49.150   running 1 tool
+23:00:49.152     running tool: get_research
+23:00:49.158       tool.get_research
+23:00:49.160         Research tool started
+23:00:56.139         Live research completed from RelatedTopics
+23:00:56.141   chat gemini-2.5-flash
+23:00:57.587 Agent output generated
+Agent: Artificial intelligence (AI) refers to the capability of computational systems to perform tasks typically associated with human intelligence. This can include things like learning, problem-solving, understanding language, and recognizing patterns.
+
+You: explain in detail
+23:01:17.254 User input received
+23:01:17.256 research_agent run
+23:01:17.258   chat gemini-2.5-flash
+23:01:21.561 Agent output generated
+Agent: Artificial intelligence (AI) is a broad field of computer science that focuses on creating machines that can think, reason, and learn in a way that mimics human intelligence. It's not just about robots, but rather about developing sophisticated algorithms and software that allow computers to perform tasks that typically require human cognitive abilities.
+
+Here are some key aspects and examples to explain AI in more detail:
+
+*   **Machine Learning (ML):** This is a core subset of AI where systems learn from data without being explicitly programmed. Instead of writing rules for every possible scenario, ML algorithms are "trained" on large datasets. For example, an ML model trained on thousands of cat images can learn to identify a cat in a new image.
+    *   **Deep Learning (DL):** A subfield of ML that uses artificial neural networks with multiple layers (hence "deep"). Deep learning is particularly effective for complex tasks like image recognition, natural language processing, and speech recognition. Think of how facial recognition works on your phone or how virtual assistants understand your voice commands.
+
+*   **Natural Language Processing (NLP):** This area of AI focuses on enabling computers to understand, interpret, and generate human language.
+    *   **Examples:** Spam filters that detect malicious emails, language translation tools like Google Translate, chatbots that can hold conversations, and sentiment analysis tools that determine the emotional tone of text.
+
+*   **Computer Vision:** This involves training computers to "see" and interpret visual information from images and videos, much like humans do.
+    *   **Examples:** Self-driving cars that identify pedestrians and traffic signs, medical imaging analysis for detecting diseases, and quality control systems in manufacturing that spot defects.
+
+*   **Robotics:** While AI is the "brain," robotics often provides the "body." AI is used to control robots, allowing them to perceive their environment, navigate, and perform tasks autonomously or semi-autonomously.
+    *   **Examples:** Industrial robots on assembly lines, autonomous drones for delivery or surveillance, and even robotic vacuum cleaners.   
+
+*   **Problem Solving and Decision Making:** AI systems can be designed to solve complex problems and make decisions based on data and learned patterns.
+    *   **Examples:** Recommendation systems (like those on Netflix or Amazon suggesting movies or products), financial fraud detection, and logistical optimization for delivery routes.
+
+In essence, AI aims to create intelligent agents that can perceive their environment and take actions that maximize their chances of achieving specific goals. It's a rapidly evolving field with applications transforming nearly every industry, from healthcare and finance to entertainment and transportation.
